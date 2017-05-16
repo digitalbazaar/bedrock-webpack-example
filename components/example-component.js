@@ -13,6 +13,10 @@ function Ctrl(brAlertService) {
     brAlertService.add('error', 'You made an error!');
     console.log('Done.');
   };
+
+  self.$onInit = function() {
+    self.time = performance.now();
+  };
 }
 
 module.exports = register;
