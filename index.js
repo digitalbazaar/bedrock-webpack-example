@@ -9,8 +9,8 @@ bedrock.events.on('bedrock-express.configure.static', app => {
     path: './public'
   });
   bedrock.config.express.static.push({
-    route: '/js',
-    path: './js'
+    route: '/assets',
+    path: './.cache'
   });
   bedrock.config.express.static.push({
     route: '/components',
