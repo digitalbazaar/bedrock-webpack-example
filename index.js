@@ -1,6 +1,8 @@
 const bedrock = require('bedrock');
 require('bedrock-express');
 
+require('./config');
+
 bedrock.events.on('bedrock-express.configure.static', app => {
   bedrock.config.express.static.push({
     route: '/',
