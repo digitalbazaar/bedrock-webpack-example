@@ -1,0 +1,24 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - bedrock > lodash:
+        patched: '2019-07-08T03:54:06.749Z'
+    - bedrock > async > lodash:
+        patched: '2019-07-08T03:54:06.749Z'
+    - extract-text-webpack-plugin > async > lodash:
+        patched: '2019-07-08T03:54:06.749Z'
+    - webpack > async > lodash:
+        patched: '2019-07-08T03:54:06.749Z'
+    - bedrock-server > async > lodash:
+        patched: '2019-07-08T03:54:06.749Z'
+    - bedrock > nyc > istanbul-lib-instrument > @babel/types > lodash:
+        patched: '2019-07-08T03:54:06.749Z'
+    - bedrock > nyc > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-08T03:54:06.749Z'
+    - bedrock > nyc > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-08T03:54:06.749Z'
+    - bedrock > nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-08T03:54:06.749Z'
