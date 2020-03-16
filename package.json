@@ -11,7 +11,7 @@
   "dependencies": {
     "angular": "^1.6.4",
     "angular-route": "^1.6.4",
-    "bedrock": "^1.4.1",
+    "bedrock": "^3.0.0",
     "bedrock-angular-alert": "digitalbazaar/bedrock-angular-alert#webpack",
     "bedrock-angular-model": "digitalbazaar/bedrock-angular-model#webpack",
     "bedrock-express": "^2.0.6",
