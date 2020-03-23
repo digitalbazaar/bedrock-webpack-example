@@ -11,7 +11,7 @@
   "dependencies": {
     "angular": "^1.6.4",
     "angular-route": "^1.6.4",
-    "bedrock": "^1.4.1",
+    "bedrock": "^2.0.0",
     "bedrock-angular-alert": "digitalbazaar/bedrock-angular-alert#webpack",
     "bedrock-angular-model": "digitalbazaar/bedrock-angular-model#webpack",
     "bedrock-express": "^2.0.6",
@@ -24,6 +24,6 @@
     "less": "^2.7.2",
     "less-loader": "^4.0.3",
     "ng-annotate-webpack-plugin": "^0.2.1-pre",
-    "webpack": "^2.5.1"
+    "webpack": "^4.0.0"
   }
 }
